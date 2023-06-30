@@ -1,0 +1,17 @@
+
+override int foo()
+{
+print(« the function without argument »);
+Return 0;
+}
+
+override void foo(int x)
+{
+printi(x);
+}
+
+void main()
+{
+foo(foo());
+return ;
+}
